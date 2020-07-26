@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="TikTakToeGUI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TikTakToeGUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid RenderTransformOrigin="0.717,0.748">
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="500" Margin="506,0,0,0" VerticalAlignment="Center" Width="0"/>
+        <Border x:Name="brdrB" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="500" Margin="839,0,0,0" VerticalAlignment="Center" Width="3" Background="Black"/>
+        <Border x:Name="brdrA" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="500" Margin="583,253,0,0" VerticalAlignment="Top" Width="3" Background="Black"/>
+        <Button Content="Button" Height="3" Margin="349,393,0,0" VerticalAlignment="Top" Width="700" Background="Black" BorderBrush="Black"/>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="3" Margin="349,594,0,0" VerticalAlignment="Top" Width="700" Background="Black"/>
+        <Button x:Name="btn1" Content="" Height="110" Margin="375,263,0,0" VerticalAlignment="Top" Width="180" FontSize="80" HorizontalAlignment="Left" FontWeight="Bold" Click="btn1_Click"/>
+        <Button x:Name="btn2" Content="" Height="110" Margin="621,263,0,0" VerticalAlignment="Top" Width="180" FontSize="80" FontWeight="Bold" Click="btn2_Click"/>
+        <Button x:Name="btn3" Content="" Height="110" Margin="863,263,0,0" VerticalAlignment="Top" Width="180" FontSize="80" FontWeight="Bold" Click="btn3_Click"/>
+        <Button x:Name="btn6" Content="" Height="110" Margin="863,443,0,0" VerticalAlignment="Top" Width="180" FontSize="80" FontWeight="Bold" Click="btn6_Click"/>
+        <Button x:Name="btn9" Content="" Height="110" Margin="863,619,0,0" VerticalAlignment="Top" Width="180" FontSize="80" FontWeight="Bold" Click="btn9_Click"/>
+        <Button x:Name="btn5" Content="" Height="110" Margin="621,443,0,0" VerticalAlignment="Top" Width="180" FontSize="80" FontWeight="Bold" Click="btn5_Click"/>
+        <Button x:Name="btn8" Content="" Height="110" Margin="621,616,0,0" VerticalAlignment="Top" Width="180" FontSize="80" FontWeight="Bold" Click="btn8_Click"/>
+        <Button x:Name="btn4" Content="" Height="110" Margin="375,443,0,0" Width="180" VerticalAlignment="Top" FontSize="80" FontWeight="Bold" Click="btn4_Click"/>
+        <Button x:Name="btn7" Content="" Height="110" Margin="375,619,0,0" Width="180" VerticalAlignment="Top" FontSize="80" FontWeight="Bold" Click="btn7_Click"/>
+        <TextBlock x:Name="txtWinner" HorizontalAlignment="Left" Height="100" Margin="246,58,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" FontSize="30"/>
+        <TextBlock x:Name="txtNewStart" HorizontalAlignment="Left" Height="90" Margin="465,58,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="407" FontSize="30"/>
+        <Button x:Name="btnYes" Content="Yes" Height="74" Margin="906,58,0,0" VerticalAlignment="Top" Width="68" FontSize="30" Click="btnYes_Click" Visibility="Collapsed"/>
+        <Button x:Name="btnNo" Content="No" Height="74" Margin="981,58,0,0" VerticalAlignment="Top" Width="68" FontSize="30" Click="btnNo_Click" Visibility="Collapsed"/>
+        <Border x:Name="brdr147" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="566" Margin="465,0,0,0" VerticalAlignment="Center" Width="0" Background="Black" Visibility="Collapsed"/>
+        <Border x:Name="brdr123" BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="0" Margin="320,318,0,0" VerticalAlignment="Top" Width="764" Background="Black" Visibility="Collapsed"/>
+        <Line x:Name="brdr159"
+    X1="270" Y1="220"
+    X2="710" Y2="705"
+    Stroke="Black"
+    StrokeThickness="4" Margin="227,-50,-417,-88" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Visibility="Collapsed" >
+            <Line.RenderTransform>
+                <CompositeTransform Rotation="-12.152"/>
+            </Line.RenderTransform>
+        </Line>
+    </Grid>
+</Page>
